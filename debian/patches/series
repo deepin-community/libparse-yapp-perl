@@ -1,0 +1,3 @@
+sort-hash-keys.patch
+man-section.patch
+reproducibility.t.patch

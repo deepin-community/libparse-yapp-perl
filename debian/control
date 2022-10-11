@@ -1,0 +1,25 @@
+Source: libparse-yapp-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ansgar Burchardt <ansgar@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper (>= 11),
+               libtext-diff-perl
+Build-Depends-Indep: perl
+Standards-Version: 4.1.5
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libparse-yapp-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libparse-yapp-perl.git
+Homepage: https://metacpan.org/release/Parse-Yapp
+
+Package: libparse-yapp-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends}
+Description: Perl module for creating fully reentrant LALR parser OO Perl modules
+ This is a collection of modules that let you generate and use yacc
+ like thread safe (reentrant) parsers with perl object oriented
+ interface.
+ .
+ The script yapp is a front-end to the Parse::Yapp module and let you
+ easily create a Perl OO parser from an input grammar file.

@@ -1,0 +1,3 @@
+version=3
+opts="uversionmangle=s/\.\d$/$&0/" \
+https://metacpan.org/release/Parse-Yapp   .*/Parse-Yapp-v?(\d[\d.-]+)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)$
